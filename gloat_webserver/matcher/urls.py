@@ -2,7 +2,6 @@ from django.urls import path
 from .views import (
     FindCandidateApiView, AddCandidateApiView, AddSkillApiView, AddJobApiView
 )
-from . import views
 
 urlpatterns = [
     path('find-candidate', FindCandidateApiView.as_view()),
